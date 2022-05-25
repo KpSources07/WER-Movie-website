@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="WERst.css" rel="stylesheet" type="text/css">
+<style>
+  body{
+    font-family:'Raleway',sans-serif;
+    font-weight: 400;
+    color:black;
+    letter-spacing: 1px;
+    background-color: aliceblue;
+  }
+  .container{
+      background-color:lavenderblush;
+      margin:200px;
+      box-shadow:11px;
+      display:grid;
+      grid-template-columns: 40% 60%;
+  }
+  .container-time{
+      background-color:mediumspringgreen;
+      padding:50px;
+      outline-offset: 30px;
+      text-align: center;
+  }
+    .heading{
+        font-size:35px;
+        text-transform: uppercase;
+    }
+    .heading-days{
+      color:aqua;
+       font-size: 35px;
+    }
+    .heading-phone{
+      font-size: 20px;
+    }
+    .container-form{
+        padding: 20px 0px;
+        margin: 0 auto;
+        color:black;
+    }
+    form{
+      display:grid;
+      grid-row-gap: 20px;
+    }
+    .form-field{
+      display:flex;
+      justify-content:space-between;
+
+    }
+    input,select{
+      pad:10px 15px;
+
+    }
+    .btn{
+        background-color: black;
+        color:aliceblue;
+        padding: 10px 20px;
+        border:none;
+        font-size:18px;
+        border-radius: 10px;
+        -webkit-border-radius:100px;
+        -moz-border-radius:100px;
+        -ms-border-radius:100px;
+        -o-border-radius:100px;
+        box-shadow: 7px 10px 12px  rgba(0, 0, 0, .1);
+        cursor: pointer;
+        transition: all.3s;
+        -webkit-border-radius:all .3s;
+        -moz-border-radius:all.3s;
+        -ms-border-radius:all.3s;
+        -o-border-radius:all.3s;
+
+    }
+    .btn:hover{
+      transform:scale(1.03);
+      -webkit-transform: scale(1.03);
+      -moz-transform:scale(1.03);
+    }
+    * {
+	box-sizing: border-box;
+  }
+  
+  * {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 0%;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 45px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<section class="header">
+  <nav>
+    <a href="index M.html"><img src="LOGO.jpg"></a>
+    <div class="nav-links" id="nav-links">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <div class="nav-links">
+      <i class="fa fa-times"></i>
+    <ul>
+      <li><a href="WER MOVIES.html">HOME</a></li>
+      <li><a href="Movie.html">MOVIES</a></li>
+      <li><a href="">OFFERS</a></li>
+      <li><a href="THEATRE.html">THEATRE</a></li>
+      <li><a href="Catergories.html">CATEGORIES</a></li>
+      <li><a href="exprience.html">EXPRIENCE</a></li>
+    </ul>
+    </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+<body>
+  <div class="container">
+    <div class="container-time">
+      <h2 class="heading">Open Time</h2>
+      <h3 class="heading days">Monday-Friday</h3>
+      <p>7am-12pm (breakfast)</p>
+      <p>12am-10pm (lunch/dinner)</p>
+
+      <h2>Open Time</h2>
+      <h3>Saturday-Sunday</h3>
+      <p>9am-12pm </p>
+      <p>12pm-8pm </p>
+
+      <hr>
+
+      <h4 class="heading-phone">Call Us:(267) 7601-5560</h4>
+
+    </div>
+    <div class="container-form">
+      <form action="#">
+        <h2 class="heading heading yellow">Online Bookings </h2>
+
+          <div class="form-field">
+            <p>Your Name</p>
+            <input type="text" placeholder="Your Name">
+
+          </div>
+          <div class="form-field">
+            <p>Email</p>
+            <input type="text" placeholder="Email">
+            
+          </div>
+          <div class="form-field">
+            <p>Time</p>
+            <input type="text" placeholder="Time">
+            
+          </div>
+          <div class="form-field">
+            <p>Date</p>
+            <input type="text" placeholder="Date">
+            
+          </div>
+          <div class="form-field">
+            <p>How many people</p>
+            <select name="select" id="#">
+              <option value="1">1 persons</option>
+              <option value="2">2 persons</option>
+              <option value="3">3 persons</option>
+              <option value="4">4 persons</option>
+              <option value="5">5 persons</option>
+            </select>
+          </div>
+
+          <button class="btn">Submit</button>
+      </form>
+
+    </div>
+
+  </div>
+  <section>
+
+    <h2 style="text-align:center">Responsive Pricing Tables</h2>
+<p style="text-align:center">Resize the browser window to see the effect.</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">$ 9.99 / year</li>
+    <li>10GB Storage</li>
+    <li>10 Emails</li>
+    <li>10 Domains</li>
+    <li>1GB Bandwidth</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">Pro</li>
+    <li class="grey">$ 24.99 / year</li>
+    <li>25GB Storage</li>
+    <li>25 Emails</li>
+    <li>25 Domains</li>
+    <li>2GB Bandwidth</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey">$ 49.99 / year</li>
+    <li>50GB Storage</li>
+    <li>50 Emails</li>
+    <li>50 Domains</li>
+    <li>5GB Bandwidth</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+  
+
+</body>
+</html>

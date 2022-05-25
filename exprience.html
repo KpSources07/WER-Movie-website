@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+      <head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <link href="WERst.css" rel="stylesheet" type="text/css">
+      <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <Style>
+            .reviews{
+                  width: 80%;
+                  margin:auto;
+                  padding-top:100px;
+                  text-align: center;
+
+            }
+            .reviews-col{
+                  flex-basis: 44%;
+                  border-radius: 10px;
+                  margin-bottom:5%;
+                  text-align: left;
+                  background-color: beige;
+                  padding:25px;
+                  cursor:pointer;
+                  display:flex;
+            }
+            .reviews-col img{
+                  height: 40px;
+                  margin-left:5px;
+                  margin-right: 10px;
+                  border-radius: 50%;
+            }
+            .reviews-col p{
+                  padding:0%;
+            }
+            .reviews-col h3{
+                  margin-top: 15px;
+                  text-align: left;
+            }
+            .mov{
+                  margin:100px auto;
+                  width: 80%;
+                  background-color:beige;
+                  background-position: center;
+                  background-size: cover;
+                  border-radius: 10%;
+                  text-align: center;
+                  padding:100px 0; 
+            }
+            .cta h1{
+                  color:bisque;
+                  margin-bottom: 40px;
+                  padding: 0;
+            }
+            @media(max-width:700px){
+                  .cta h1{
+                        font-size:24px;
+                  }
+            }
+            <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+             
+
+
+      </Style>
+
+      </head>
+<body>
+      <section class="header">
+		<nav>
+			<a href="index M.html"><img src="LOGO.jpg"></a>
+			<div class="nav-links" id="nav-links">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<div class="nav-links">
+				<i class="fa fa-times"></i>
+			<ul>
+				<li><a href="WER MOVIES.html">HOME</a></li>
+				<li><a href="Movie.html">MOVIES</a></li>
+				<li><a href="">OFFERS</a></li>
+				<li><a href="THEATRE.html">THEATRE</a></li>
+				<li><a href="Catergories.html">CATEGORIES</a></li>
+				<li><a href="exprience.html">EXPRIENCE</a></li>
+			</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+				</nav>
+      <section class="reviews">
+		<h1>What Our Chiller Says</h1>
+		<p>Your testimonals helps us add value</p>
+            <div class="row">
+                  <div class="reviews-col">
+                        <img src="C:\Users\bida21-117\OneDrive - Botswana Accountancy College\Documents\Desktop\WER MOVIES\user1.jpeg">
+                  <div>
+                  <p>WER Screen provides cinematic experience such as a The transport a movie that is a rare movie that succeeds on almost every level, where each character, scene, costume, and joke firing on all cylinders to make a film worth repeated viewings</p>
+                  <h3>The Monkeys</h3>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  </div>
+                  </div>
+                  <div class="reviews-col">
+                        <img src="C:\Users\bida21-117\OneDrive - Botswana Accountancy College\Documents\Desktop\WER MOVIES\user2.jpeg">
+                  <div>
+                  <p>WER Screen provides cinematic experience such as a The transport a movie that is a rare movie that succeeds on almost every level, where each character, scene, costume, and joke firing on all cylinders to make a film worth repeated viewings</p>
+                  <h3>Diauty </h3>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  </div>
+                  </div>
+
+            </div>
+          </section>
+          <sectiona>
+            <div class="container">
+                  <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+          </sectiona>
+          <section class="mov">
+                <h1>Get In Touch For Our Lastest Movies<br>Anywhere in the Country</h1>
+                  <a href="mailto:WER MO SCREEN.com">CONTACT US</a>
+
+          </section>
+
+        
+</body>
+</html>
